@@ -21,7 +21,8 @@ const HomeThree = () => {
       <BlogPostboxArea/>
       
       <TrendingSpecialPrd/>
-      <InstagramAreaThree/> 
+      {/* <InstagramAreaThree/>  */}
+    
       <Footer style_3={true} />
     </Wrapper>
   );

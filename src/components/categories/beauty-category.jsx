@@ -81,7 +81,7 @@ const BeautyCategory = () => {
           </h3>
           <div className="tp-category-btn-3">
             <a
-              onClick={() => handleCategoryRoute(item.parent)}
+              href="https://www.instagram.com/friseur_goldene_locke?igsh=M3p2NDEyYjhqbzJj"
               className="cursor-pointer tp-link-btn tp-link-btn-2"
             >
               View Now

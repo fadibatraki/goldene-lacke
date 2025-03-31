@@ -100,7 +100,7 @@ const BeautyBanner = () => {
                           href="/"
                           className="tp-btn tp-btn-border tp-btn-border-white"
                         >
-                          Discover Now
+                     Jetzt buchen
                         </Link>
                       </div>
                     </div>

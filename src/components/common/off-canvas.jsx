@@ -10,12 +10,20 @@ import MobileCategory from '@/layout/headers/header-com/mobile-category';
 import MobileMenus from './mobile-menus';
 
 
-import insta_1 from "@assets/img/tasfifat/30.jpg";
-import insta_2 from "@assets/img/tasfifat/9.jpg";
-import insta_3 from "@assets/img/tasfifat/13.jpg";
-import insta_4 from "@assets/img/tasfifat/15.jpg";
-import insta_5 from "@assets/img/tasfifat/28.jpg";
-import insta_6 from "@assets/img/tasfifat/19.jpg";
+import insta_1 from "@assets/img/galary/1.jpg";
+import insta_2 from "@assets/img/galary/2.jpg";
+import insta_3 from "@assets/img/galary/3.jpg";
+import insta_4 from "@assets/img/galary/4.jpg";
+import insta_5 from "@assets/img/galary/5.jpg";
+import insta_6 from "@assets/img/galary/6.jpg";
+import insta_7 from "@assets/img/galary/7.jpg";
+import insta_8 from "@assets/img/galary/8.jpg";
+import insta_9 from "@assets/img/galary/9.jpg";
+import insta_10 from "@assets/img/galary/10.jpg";
+import insta_11 from "@assets/img/galary/11.jpg";
+import insta_12 from "@assets/img/galary/12.jpg";
+import insta_13 from "@assets/img/galary/13.jpg";
+import insta_14 from "@assets/img/galary/14.jpg";
 
 
 const instagram_data = [
@@ -25,6 +33,15 @@ const instagram_data = [
   { id: 4, link: "https://www.instagram.com/friseur_goldene_locke?igsh=M3p2NDEyYjhqbzJj", img: insta_4 },
   { id: 5, link: "https://www.instagram.com/friseur_goldene_locke?igsh=M3p2NDEyYjhqbzJj", img: insta_5 },
   { id: 6, link: "https://www.instagram.com/friseur_goldene_locke?igsh=M3p2NDEyYjhqbzJj", img: insta_6 },
+  { id: 7, link: "https://www.instagram.com/friseur_goldene_locke?igsh=M3p2NDEyYjhqbzJj", img: insta_7 },
+  { id: 8, link: "https://www.instagram.com/friseur_goldene_locke?igsh=M3p2NDEyYjhqbzJj", img: insta_8 },
+  { id: 9, link: "https://www.instagram.com/friseur_goldene_locke?igsh=M3p2NDEyYjhqbzJj", img: insta_9 },
+  { id: 10, link: "https://www.instagram.com/friseur_goldene_locke?igsh=M3p2NDEyYjhqbzJj", img: insta_10 },
+  { id: 11, link: "https://www.instagram.com/friseur_goldene_locke?igsh=M3p2NDEyYjhqbzJj", img: insta_11 },
+  { id: 12, link: "https://www.instagram.com/friseur_goldene_locke?igsh=M3p2NDEyYjhqbzJj", img: insta_12 },
+  { id: 13, link: "https://www.instagram.com/friseur_goldene_locke?igsh=M3p2NDEyYjhqbzJj", img: insta_13 },
+  { id: 14, link: "https://www.instagram.com/friseur_goldene_locke?igsh=M3p2NDEyYjhqbzJj", img: insta_14 },
+
 ];
 
 
@@ -61,12 +78,13 @@ const OffCanvas = ({ isOffCanvasOpen, setIsCanvasOpen,categoryType = "electronic
               </div>
             </div>
             
-            <div className="tp-main-menu-mobile fix d-lg-none mb-0">
+            {/* <div className="tp-main-menu-mobile fix d-lg-none mb-0">
               <MobileMenus />
-            </div>
+            </div> */}
 
-               <section id="InstagramAreaThree" className="tp-instagram-area tp-instagram-style-3 pb-0 pt-0">
+               <section id="InstagramAreaThree" className="tp-instagram-area tp-instagram-style-3 pb-2 pt-0">
                       <div className="container-fluid pl-20 pr-20 ">
+                        <h3 className="justify-content-center text-center">Unsere Frisuren</h3>
                         <div className="row row-cols-lg-6 row-cols-sm-2 row-cols-1 gx-2 gy-2 gy-lg-0 ">
                           {instagram_data.map((item) => (
                             <div className="col-6" key={item.id}>
@@ -83,6 +101,8 @@ const OffCanvas = ({ isOffCanvasOpen, setIsCanvasOpen,categoryType = "electronic
                         </div>
                       </div>
                     </section>
+                    
+                    
           
           </div>
           
