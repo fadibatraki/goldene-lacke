@@ -8,7 +8,7 @@ const BlogItem = () => {
   
   const article = {
     id: 1,
-    title: "Ein guter Friseur kümmert sich nicht nur um das Aussehen, sondern auch um das Wohlbefinden der Kunden!“",
+    title: "Fadi Ein guter Friseur kümmert sich nicht nur um das Aussehen, sondern auch um das Wohlbefinden der Kunden!“",
     desc: "Ich bin Marco , Friseurmeister aus Leidenschaft. Mein Handwerk habe ich bei dem Catwalk  gelernt, Weiterbildungen im Be Blond Salon gemacht und mich anschließend auf Farbe und Haarverlängerung  und Hairstyling spezialisiert. 2016 habe ich mit meiner Familie den erfolgreichen Salon Goldene Locke  Hair & Nails in der Münchner Innenstadt gegründet. 2023 eröffnete dann mein neuer Salon, in Haidhausen welchem ich mich auf Farbe, besonders Blond spezialisiert habe. Besonders wichtig ist mir Eure Zufriedenheit. Diese garantiere ich durch eine individuelle Haar und Typ Beratung. Ihr sollt meinen Salon mit einem neuen strahlenden Erscheinungsbild verlassen und die Zeit bei uns als Kurzurlaub erleben.. Da ich persönlichen Kundenkontakt sehr schätze   L‘Oréal/Friseur Meister, Master of Color, Blond Expert.",
     img: blogImage ,
     date: "March 26, 2016",
