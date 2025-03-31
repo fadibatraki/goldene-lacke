@@ -23,7 +23,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
                         <Image src={logo} alt="logo" />
                       </Link>
                     </div>
-                    <p className="tp-footer-desc">"Willkommen bei Friseur goldene locke ! Wir stehen für exzellente Handwerkskunst, moderne Haarschnitte und individuellen Stil. Unser erfahrenes Team sorgt mit Präzision und Leidenschaft dafür, dass jeder Kunde unseren Salon mit einem perfekten Look verlässt. Bei uns genießen Sie nicht nur professionelle Haarpflege, sondern auch eine entspannte Atmosphäre und einen erstklassigen Service. Besuchen Sie uns und erleben Sie, wie wir Ihre Schönheit auf das nächste Level bringen</p>
+                    <p className="tp-footer-desc">Willkommen bei Friseur goldene locke ! Wir stehen für exzellente Handwerkskunst, moderne Haarschnitte und individuellen Stil. Unser erfahrenes Team sorgt mit Präzision und Leidenschaft dafür, dass jeder Kunde unseren Salon mit einem perfekten Look verlässt. Bei uns genießen Sie nicht nur professionelle Haarpflege, sondern auch eine entspannte Atmosphäre und einen erstklassigen Service. Besuchen Sie uns und erleben Sie, wie wir Ihre Schönheit auf das nächste Level bringen</p>
                     <div className="tp-footer-social">
                       {/* {social_data.map(s => <a href={s.link} key={s.id} target="_blank">
                         <i className={s.icon}></i>
