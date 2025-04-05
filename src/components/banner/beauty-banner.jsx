@@ -80,7 +80,7 @@ const BeautyBanner = () => {
             >
               <div
                 className="tp-slider-thumb-3 include-bg"
-                style={{ backgroundImage: `url(${item.bg.src})` }}
+                style={{ backgroundImage: `url(${item.bg.src})`, opacity:0.6 }}
               ></div>
               <div className="container">
                 <div className="row align-items-center">
@@ -95,14 +95,50 @@ const BeautyBanner = () => {
                         <FeatureItem icon={<VeganProduct />} title={<>Haar  <br /> Perfektion</>} />
                         <FeatureItem icon={<Meckoup />} title={<>Dein  <br /> Style</>} />
                       </div>
-                      <div className="tp-slider-btn-3">
-                        <Link
-                          href="/"
-                          className="tp-btn tp-btn-border tp-btn-border-white"
-                        >
-                     Jetzt buchen
-                        </Link>
-                      </div>
+                      <div className="tp-slider-btn-container row">
+                      <div className="col-auto tp-slider-btn-3 pb-4">
+  <Link
+    href="https://buchung.treatwell.de/ort/383697/menue/"
+    className="tp-btn tp-btn-border tp-btn-border-white bg-gradient"
+    style={{ backgroundColor: "transparent", color: "white", borderColor: "white", transition: "all 0.3s ease" }}
+    onMouseEnter={(e) => {
+      e.target.style.backgroundColor = "#d59057";
+      e.target.style.borderColor = "#d59057";
+    }}
+    onMouseLeave={(e) => {
+      e.target.style.backgroundColor = "transparent";
+      e.target.style.borderColor = "white";
+    }}
+  >
+    Jetzt buchen am Heimeran str
+  </Link>
+</div>
+
+
+<div className="col-auto tp-slider-btn-3">
+  <Link
+    href="https://buchung.treatwell.de/ort/441157/menue/"
+    className="tp-btn tp-btn-border tp-btn-border-white bg-gradient"
+    style={{ backgroundColor: "transparent", color: "white", borderColor: "white", transition: "all 0.3s ease" }}
+    onMouseEnter={(e) => {
+      e.target.style.backgroundColor = "#d59057";
+      e.target.style.borderColor = "#d59057";
+    }}
+    onMouseLeave={(e) => {
+      e.target.style.backgroundColor = "transparent";
+      e.target.style.borderColor = "white";
+    }}
+  >
+    Jetzt buchen am Weißenburgerstraße
+  </Link>
+</div>
+
+</div>
+
+
+                      
+
+                      
                     </div>
                   </div>
                 </div>
@@ -125,3 +161,5 @@ const BeautyBanner = () => {
 };
 
 export default BeautyBanner;
+
+

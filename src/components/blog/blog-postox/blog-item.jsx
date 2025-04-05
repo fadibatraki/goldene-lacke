@@ -20,9 +20,9 @@ const BlogItem = () => {
     <>
       <article className="tp-postbox-item format-image mb-50 transition-3">
         <div className="tp-postbox-thumb w-img">
-          <Link href={`/blog-details/${article.id}`}>
+          
             <Image src={article.img} alt="blog img" width={500} height={500} />
-          </Link>
+          
         </div>
 
         <div className="tp-postbox-content">
@@ -42,9 +42,9 @@ const BlogItem = () => {
             </span>
           </div>
           <h3 className="tp-postbox-title">
-            <Link href={`/blog-details/${article.id}`}>
+           
               {article.title}
-            </Link>
+          
           </h3>
           <div className="tp-postbox-text">
             <p>

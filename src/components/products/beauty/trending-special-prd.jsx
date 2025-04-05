@@ -85,7 +85,7 @@ const TrendingSpecialPrd = () => {
                             <SwiperSlide key={item._id} className="tp-special-item grey-bg-9">
                               {/* Directly displaying product without ProductItem */}
                               <div className="tp-product-item-3 mb-50 text-center">
-                                <div className="tp-product-thumb-3 mb-15 fix p-relative z-index-1">
+                                <div className="tp-product-thumb-3 mb-15 fix p-relative z-index-1 bg-white">
                                   <Image src={item.img} alt={item.title} width={282} height={320} />
                                  
                                 </div>

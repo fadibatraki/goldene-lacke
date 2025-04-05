@@ -3,27 +3,27 @@ import Link from 'next/link';
 import Image from 'next/image';
 // internal
 import { CloseTwo } from '@/svg';
-import logo from '@assets/img/logo/logo.svg';
+import logo from '@assets/img/logo/gold.svg';
 import contact_img from '@assets/img/icon/contact.png';
 import language_img from '@assets/img/icon/language-flag.png';
 import MobileCategory from '@/layout/headers/header-com/mobile-category';
 import MobileMenus from './mobile-menus';
 
 
-import insta_1 from "@assets/img/galary/1.jpg";
-import insta_2 from "@assets/img/galary/2.jpg";
-import insta_3 from "@assets/img/galary/3.jpg";
-import insta_4 from "@assets/img/galary/4.jpg";
-import insta_5 from "@assets/img/galary/5.jpg";
-import insta_6 from "@assets/img/galary/6.jpg";
-import insta_7 from "@assets/img/galary/7.jpg";
-import insta_8 from "@assets/img/galary/8.jpg";
-import insta_9 from "@assets/img/galary/9.jpg";
-import insta_10 from "@assets/img/galary/10.jpg";
-import insta_11 from "@assets/img/galary/11.jpg";
-import insta_12 from "@assets/img/galary/12.jpg";
-import insta_13 from "@assets/img/galary/13.jpg";
-import insta_14 from "@assets/img/galary/14.jpg";
+import insta_1 from "@assets/img/gallery/1.jpg";
+import insta_2 from "@assets/img/gallery/2.jpg";
+import insta_3 from "@assets/img/gallery/3.jpg";
+import insta_4 from "@assets/img/gallery/4.jpg";
+import insta_5 from "@assets/img/gallery/5.jpg";
+import insta_6 from "@assets/img/gallery/6.jpg";
+import insta_7 from "@assets/img/gallery/7.jpg";
+import insta_8 from "@assets/img/gallery/8.jpg";
+import insta_9 from "@assets/img/gallery/9.jpg";
+import insta_10 from "@assets/img/gallery/10.jpg";
+import insta_11 from "@assets/img/gallery/11.jpg";
+import insta_12 from "@assets/img/gallery/12.jpg";
+import insta_13 from "@assets/img/gallery/13.jpg";
+import insta_14 from "@assets/img/gallery/14.jpg";
 
 
 const instagram_data = [
@@ -70,10 +70,11 @@ const OffCanvas = ({ isOffCanvasOpen, setIsCanvasOpen,categoryType = "electronic
             </button>
           </div>
           <div className="offcanvas__content">
-            <div className="offcanvas__top mb-70 d-flex justify-content-between align-items-center">
+            <div className="offcanvas__top mb-0 d-flex justify-content-between align-items-center">
               <div className="offcanvas__logo logo">
                 <Link href="/">
-                  <Image src={logo} alt="logo" />
+                  <Image src={logo} alt="logo"   width={155}   // Set your desired width
+    height={80}  />
                 </Link>
               </div>
             </div>
@@ -84,6 +85,17 @@ const OffCanvas = ({ isOffCanvasOpen, setIsCanvasOpen,categoryType = "electronic
 
                <section id="InstagramAreaThree" className="tp-instagram-area tp-instagram-style-3 pb-2 pt-0">
                       <div className="container-fluid pl-20 pr-20 ">
+                      <div className="offcanvas__category pb-40">
+             
+              <div className="tp-category-mobile-menu">
+                <nav className={`tp-category-menu-content ${isCategoryActive ? "active" : ""}`}>
+                  <MobileCategory categoryType={categoryType} isCategoryActive={isCategoryActive} />
+                </nav>
+              </div>
+            </div>
+            <div className="tp-main-menu-mobile fix d-lg-none mb-10">
+              <MobileMenus />
+            </div>
                         <h3 className="justify-content-center text-center">Unsere Frisuren</h3>
                         <div className="row row-cols-lg-6 row-cols-sm-2 row-cols-1 gx-2 gy-2 gy-lg-0 ">
                           {instagram_data.map((item) => (

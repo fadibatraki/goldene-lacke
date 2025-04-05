@@ -36,35 +36,24 @@ const menu_data = [
     id: 2,
     products: true,
     title: 'instagram',
-    link: '#InstagramAreaThree',
+    link: 'https://www.instagram.com/friseur_goldene_locke?igsh=M3p2NDEyYjhqbzJj',
     
     
   },
-  {
-    id: 3,
-    sub_menu: true,
-    title: 'Frisuren',
-    link: '#Frisuren',
-   
-  },
+  
   {
     id: 4,
     single_link: true,
-    title: 'About',
-    link: '#About-Us',
+    title: 'Gallery',
+    link: '/gallery',
   },
  
-  {
-    id: 5,
-    single_link: true,
-    title: 'Products',
-    link: '#Products',
-  },
+
   {
     id: 6,
     single_link: true,
     title: 'Contact Us',
-    link: '#Contact-Us',
+    link: '/contact',
   },
 ]
 

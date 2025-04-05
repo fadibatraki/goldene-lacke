@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 // internal
-import logo from '@assets/img/logo/logo.svg';
+import logo from '@assets/img/logo/gold.svg';
 import pay from '@assets/img/footer/footer-pay.png';
 import social_data from '@/data/social-data';
 import { Email, Location } from '@/svg';
@@ -18,11 +18,110 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
               <div className="col-xl-6 col-lg-3 col-md-4 col-sm-6">
                 <div className="tp-footer-widget footer-col-1 mb-50">
                   <div className="tp-footer-widget-content">
-                    <div className="tp-footer-logo">
+                    {/* <div className="tp-footer-logo">
                       <Link href="/">
-                        <Image src={logo} alt="logo" />
+                        <Image src={logo} alt="logo" width={135}  height={100} />
                       </Link>
-                    </div>
+                    </div> */}
+                    <h4 className="tp-footer-desc pb-0 m-0">Inhaltlich verantwortlich : Majd Hanashe</h4>
+                    <h4 className="tp-footer-desc pb-0 m-0">Anschrift : Heimeran str 35 80339 München</h4>
+                    <h4 className="tp-footer-desc pb-0 m-0">Anschrift : Weißenburger str 29 81667 München</h4>
+                    <h4 className="tp-footer-desc pb-0 m-0">Rechtsform : Einzelunternehmen</h4>
+                    <h4 className="tp-footer-desc pb-0 m-0">Steuernummer : 147/174/51598</h4>
+                    <h4 className="tp-footer-desc pb-0 m-0"><a href="tel:+4967015001856">Telephon : 089 15001856</a></h4>
+                    <h4 className="tp-footer-desc pb-0 m-0"><a href="mailto:Friseur.goldenelocke@gmail.com">Friseur.goldenelocke@gmail.com</a></h4>
+                    <h4 className="tp-footer-desc pb-0 m-0"><a href="www.friseur-goldenelocke@gmail.de">www.friseur-goldenelocke@gmail.de</a></h4>
+                    <h4 className="tp-footer-desc pb-0 m-0">
+  <a
+    href="https://wa.me/963952325706"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Webdesign : Fadi Batraki
+  </a>
+</h4>
+
+                  
+                  </div>
+                </div>
+              </div>
+             
+              
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                <div className="tp-footer-widget footer-col-4 mb-50">
+                <p className="tp-footer-desc">Willkommen bei Friseur goldene locke ! Wir stehen für exzellente Handwerkskunst, moderne Haarschnitte und individuellen Stil. Unser erfahrenes Team sorgt mit Präzision und Leidenschaft dafür, dass jeder Kunde unseren Salon mit einem perfekten Look verlässt. Bei uns genießen Sie nicht nur professionelle Haarpflege, sondern auch eine entspannte Atmosphäre und einen erstklassigen Service. Besuchen Sie uns und erleben Sie, wie wir Ihre Schönheit auf das nächste Level bringen</p>
+              
+                </div>
+              </div>
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+        {/* <div className="tp-footer-bottom">
+          <div className="container">
+            <div className="tp-footer-bottom-wrapper">
+              <div className="row align-items-center">
+                <div className="col-md-12">
+                  <div className="tp-footer-copyright">
+                    <p>{new Date().getFullYear()} Created By Fadi Batraki
+                  
+                    </p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div> */}
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div id="Contact-Us" className={`tp-footer-area ${primary_style?'tp-footer-style-2 tp-footer-style-primary tp-footer-style-6':''} ${style_2 ?'tp-footer-style-2':style_3 ? 'tp-footer-style-2 tp-footer-style-3': ''}`}
+        data-bg-color={`${style_2 ? 'footer-bg-white' : 'footer-bg-grey'}`}>
+        <div className="tp-footer-top pt-95 pb-40">
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-6 col-lg-3 col-md-4 col-sm-6">
+                <div className="tp-footer-widget footer-col-1 mb-50">
+                  <div className="tp-footer-widget-content">
+                    {/* <div className="tp-footer-logo">
+                      <Link href="/">
+                        <Image src={logo} alt="logo" width={135}  height={100} />
+                      </Link>
+                    </div> */}
+                    <h4 className="tp-footer-widget-title">Inhaltlich verantwortlich : Majd Hanashe</h4>
+                    <h4 className="tp-footer-widget-title">Anschrift : Heimeran str 35 80339 München</h4>
+                    <h4 className="tp-footer-widget-title">Anschrift : Weißenburger str 29 81667 München</h4>
+                    <h4 className="tp-footer-widget-title">Rechtsform : Einzelunternehmen</h4>
+                    <h4 className="tp-footer-widget-title">Steuernummer : 147/174/51598</h4>
+                    <h4><a href="tel:+4967015001856">Telephon : 089 15001856</a></h4>
+                    <h4><a href="mailto:Friseur.goldenelocke@gmail.com">Friseur.goldenelocke@gmail.com</a></h4>
+                    <h4><a href="www.friseur-goldenelocke@gmail.de">www.friseur-goldenelocke@gmail.de</a></h4>
+                    <h4>
+  <a
+    href="https://wa.me/963952325706"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Webdesign : Fadi Batraki
+  </a>
+</h4>
+
                     <p className="tp-footer-desc">Willkommen bei Friseur goldene locke ! Wir stehen für exzellente Handwerkskunst, moderne Haarschnitte und individuellen Stil. Unser erfahrenes Team sorgt mit Präzision und Leidenschaft dafür, dass jeder Kunde unseren Salon mit einem perfekten Look verlässt. Bei uns genießen Sie nicht nur professionelle Haarpflege, sondern auch eine entspannte Atmosphäre und einen erstklassigen Service. Besuchen Sie uns und erleben Sie, wie wir Ihre Schönheit auf das nächste Level bringen</p>
                     <div className="tp-footer-social">
                       {/* {social_data.map(s => <a href={s.link} key={s.id} target="_blank">
@@ -107,7 +206,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
                           <p>Weißenburger str 29  <br /> 81667 München  </p>
                         </div>
                       </div>
-                      <div className="tp-footer-contact-item d-flex align-items-start">
+                      <div className="tp-footer-contact-item d-flex align-items-start pb-4">
                        
                         <div className="tp-footer-contact-content">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.0503206977073!2d11.59669467591719!3d48.12855295179006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf81c03a5789%3A0x1a852724034ec1a5!2sWei%C3%9Fenburger%20Str.%2029%2C%2081667%20M%C3%BCnchen%2C%20Germany!5e0!3m2!1sen!2snl!4v1743374701149!5m2!1sen!2snl"  ></iframe>  </div>
@@ -139,6 +238,15 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
           </div>
         </div> */}
       </div>
+  
+
+
+
+
+
+
+
+
     </footer>
   );
 };

@@ -8,41 +8,48 @@ import contact_icon_3 from "@assets/img/contact/contact-icon-3.png";
 
 const ContactArea = () => {
   return (
-    <>
-      <section className="tp-contact-area pb-100">
-        <div className="container">
-          <div className="tp-contact-inner">
-            <div className="row">
-              <div className="col-xl-9 col-lg-8">
-                <div className="tp-contact-wrapper">
-                  <h3 className="tp-contact-title">Sent A Message</h3>
+    <section className="tp-contact-area pb-100">
+      <div className="container">
+        <div className="tp-contact-inner">
+          <div className="row">
+            <div className="col-xl-6 col-lg-6">
+              <div className="tp-contact-wrapper">
+                <h3 className="tp-contact-title">Kontakt</h3>
+                <div className="tp-contact-form">
+                  <div className="tp-contact-info-item">
+                    <div className="tp-contact-info-content">
+                      <p>Inhaltlich verantwortlich : Majd Hanashe</p>
+                      <p>Anschrift : Heimeran str 35 80339 München</p>
+                      <p>Anschrift : Weißenburger str 29 81667 München</p>
+                      <p>Rechtsform : Einzelunternehmen</p>
+                      <p>Steuernummer : 147/174/51598</p>
+                      <p>
+    <a href="tel:+4967015001856">Telephon : 089 15001856</a>
+  </p>
+  <p>
+    <a href="tel:+4967054356057">Telephon : 089 54356057</a>
+  </p>
 
-                  <div className="tp-contact-form">
-                    {/* form start */}
-                    <ContactForm />
-                    {/* form end */}
-                    <p className="ajax-response"></p>
+  <p>Internet : www.friseur-goldenelocke@gmail.de</p>
+  <p>
+  <a href="https://wa.me/491234567890" target="_blank" rel="noopener noreferrer">
+    Web-Developer : Fadi Batraki
+    </a>
+    </p>
+                    </div>
                   </div>
+                  <p className="ajax-response"></p>
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-4">
-                <div className="tp-contact-info-wrapper">
-                  <div className="tp-contact-info-item">
-                    <div className="tp-contact-info-icon">
-                      <span>
-                        <Image src={contact_icon_1} alt="contact-icon" />
-                      </span>
-                    </div>
-                    <div className="tp-contact-info-content">
-                      <p data-info="mail">
-                        <a href="mailto:contact@shofy.com">contact@shofy.com</a>
-                      </p>
-                      <p data-info="phone">
-                        <a href="tel:670-413-90-762">+670 413 90 762</a>
-                      </p>
-                    </div>
-                  </div>
-                  <div className="tp-contact-info-item">
+            </div>
+
+            <div className="col-xl-6 col-lg-6">
+              <div className="tp-contact-info-wrapper">
+
+                {/* First Row: Addresses */}
+                <div className="d-flex gap-4 flex-wrap mb-4">
+                  {/* Address 1 */}
+                  <div className="tp-contact-info-item" style={{ flex: '1 1 45%' }}>
                     <div className="tp-contact-info-icon">
                       <span>
                         <Image src={contact_icon_2} alt="contact-icon" />
@@ -51,47 +58,88 @@ const ContactArea = () => {
                     <div className="tp-contact-info-content">
                       <p>
                         <a
-                          href="https://www.google.com/maps/place/New+York,+NY,+USA/@40.6976637,-74.1197638,11z/data=!3m1!4b1!4m6!3m5!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728!16zL20vMDJfMjg2"
+                          href="https://www.google.com/maps?q=Heimeranstr+35+80339+München"
                           target="_blank"
+                          rel="noopener noreferrer"
                         >
-                          84 sleepy hollow st. <br /> jamaica, New York 1432
+                          Heimeran str 35 <br /> 80339 München
                         </a>
                       </p>
                     </div>
                   </div>
-                  <div className="tp-contact-info-item">
+
+                  {/* Address 2 */}
+                  <div className="tp-contact-info-item" style={{ flex: '1 1 45%' }}>
+                    <div className="tp-contact-info-icon">
+                      <span>
+                        <Image src={contact_icon_2} alt="contact-icon" />
+                      </span>
+                    </div>
+                    <div className="tp-contact-info-content">
+                      <p>
+                        <a
+                          href="https://www.google.com/maps?q=Weißenburger+str+29+81667+München"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Weißenburger str 29 <br /> 81667 München
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Second Row: Contact & Social */}
+                <div className="d-flex gap-4 flex-wrap">
+                  {/* Contact Info */}
+                  <div className="tp-contact-info-item" style={{ flex: '1 1 45%' }}>
+                    <div className="tp-contact-info-icon">
+                      <span>
+                        <Image src={contact_icon_1} alt="contact-icon" />
+                      </span>
+                    </div>
+                    <div className="tp-contact-info-content">
+  <p>
+    <a href="mailto:Friseur.goldenelocke@gmail.com">
+      Friseur.goldenelocke@gmail.com
+    </a>
+  </p>
+  <p>
+    <a href="tel:+4967015001856">Telephon : 089 15001856</a>
+  </p>
+  <p>
+    <a href="tel:+4967054356057">Telephon : 089 54356057</a>
+  </p>
+</div>
+
+                  </div>
+
+                  {/* Social Media */}
+                  <div className="tp-contact-info-item" style={{ flex: '1 1 45%' }}>
                     <div className="tp-contact-info-icon">
                       <span>
                         <Image src={contact_icon_3} alt="contact-icon" />
                       </span>
                     </div>
                     <div className="tp-contact-info-content">
-                      <div className="tp-contact-social-wrapper mt-5">
-                        <h4 className="tp-contact-social-title">
-                          Find on social media
-                        </h4>
-
-                        <div className="tp-contact-social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-facebook-f"></i>
-                          </a>
-                          <a href="#">
-                            <i className="fa-brands fa-twitter"></i>
-                          </a>
-                          <a href="#">
-                            <i className="fa-brands fa-linkedin-in"></i>
-                          </a>
-                        </div>
+                      <h4 className="tp-contact-social-title mb-2">
+                      Finden Sie uns in den sozialen Medien
+                      </h4>
+                      <div className="tp-contact-social-icon">
+                        <a href="https://www.instagram.com/friseur_goldene_locke?igsh=M3p2NDEyYjhqbzJj"><i className="fa-brands fa-instagram"></i></a>
+                    
                       </div>
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
+
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
 
