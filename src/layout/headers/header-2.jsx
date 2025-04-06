@@ -5,7 +5,7 @@ import Link from 'next/link';
 // internal
 import Menus from './header-com/menus';
 import logo_white from '@assets/img/logo/logo-white.svg';
-import logo_dark from '@assets/img/logo/gold.svg';
+import logo_dark from '@assets/img/logo/logo.svg';
 import useSticky from '@/hooks/use-sticky';
 import useCartInfo from '@/hooks/use-cart-info';
 import { openCartMini } from '@/redux/features/cartSlice';
