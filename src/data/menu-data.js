@@ -30,6 +30,7 @@ const menu_data = [
         title: 'Jewelry',
         link: '/home-4'
       }
+      
     ]
   },
   {
@@ -46,6 +47,12 @@ const menu_data = [
     single_link: true,
     title: 'Gallery',
     link: '/gallery',
+  },
+  {
+    id: 4,
+    single_link: true,
+    title: 'Team',
+    link: '/team',
   },
  
 

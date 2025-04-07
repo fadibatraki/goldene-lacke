@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from "next/image";
 import PopupVideo from '@/components/common/popup-video';
-import blogImage from '@assets/img/about/marcos.jpg';
+import blogImage from '@assets/img/team/mark.png';
 const BlogItem = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
   
@@ -19,9 +19,9 @@ const BlogItem = () => {
   return (
     <>
       <article className="tp-postbox-item format-image mb-50 transition-3">
-        <div className="tp-postbox-thumb w-img">
+        <div className="tp-postbox-thumb w-img ">
           
-            <Image src={article.img} alt="blog img" width={500} height={500} />
+            <Image className="h-100"  src={article.img} alt="blog img"  />
           
         </div>
 
