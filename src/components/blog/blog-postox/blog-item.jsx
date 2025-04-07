@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from "next/image";
 import PopupVideo from '@/components/common/popup-video';
-import blogImage from '@assets/img/team/mark.png';
+import blogImage from '@assets/img/about/marc.png';
 const BlogItem = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
   
