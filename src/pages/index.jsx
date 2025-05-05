@@ -15,7 +15,7 @@ import ContactMap from "@/components/contact/contact-map";
 const HomeThree = () => {
   return (
     <Wrapper>
-      <SEO pageTitle="Home Three" />
+      <SEO pageTitle="Goldene Locke" />
       <HeaderThree/>
       <BeautyBanner/>
       {/* <BeautyCategory/> */}
